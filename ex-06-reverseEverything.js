@@ -19,7 +19,15 @@
 // Hint, you may want to use reverseObject() as a helper function.
 
 
-
+var reverseEverything = function(anArrayOfObjects){
+  var outputReversedArray = [];
+  for (var i = 0; i < anArrayOfObjects.length; i++){
+    var isArrayReversed = reverseObject(anArrayOfObjects[i])
+    outputReversedArray.unshift(isArrayReversed)
+    // console.log(isArrayReversed)
+}
+  return outputReversedArray
+}
 
 
 

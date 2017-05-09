@@ -3,7 +3,15 @@
 // Write a function called reverseObject(). It should take as input an object,
 // and it should output a new object where the keys and values are reversed.
 
-
+var reverseObject = function(anObject){
+	var outputObj = {};
+	for (var key in anObject){
+		if (anObject.hasOwnProperty(key)) {
+			outputObj[anObject[key]] = key;
+		}
+	}
+		return outputObj;
+}
 
 
 

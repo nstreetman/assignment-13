@@ -6,17 +6,24 @@
 //
 // makeAcronym('PNG')
 //  => 'PDF'
-
+//
 var makeAcronym = function(aString){
   var acronymOfString = ('');
-  var splitStringArr = aString.split(' ');
-  for(var i = 0; i < splitStringArr.length; i++){
-    var firstLetters = splitStringArr[i];
-    var extractFirstLetters = firstLetters.substr(0,1).toUppercase
-    acronymOfString = acronymOfString + extractFirstLetters;
+
+  var splitString = aString.split(' ');
+  for(var i = 0; i < splitString.length; i++){
+    var firstLetters = splitString[i];
+    // console.log(splitString)
+    var extractFirstLetters = firstLetters[0].substr(0);
+    // console.log(extractFirstLetters)
+    var acronymOfString = acronymOfString + extractFirstLetters;
   }
   return acronymOfString;
 }
+//had to move on with this one....
+// On line 17 I can't seem to get toUppercase to work - console says "toUpperCase is not a functiona and breaks it"
+//var extractFirstLetters = firstLetters[0].substr(0).toUppercase();
+
 
 
 
