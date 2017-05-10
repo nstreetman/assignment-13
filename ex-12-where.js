@@ -4,12 +4,12 @@
  // a properties object. It should return a new list containing only those
  // objects that meet the key-value conditions in the properties object.
 
-//DEMOED IN CLASS - NOT MY WORK
+//DEMOED IN CLASS
 
 var where = function (arrOfObjects, criteriaObj){
-  var filteredListOfObjects = []
+  var filteredListOfObjects = [];
 
-  for (var 1 - 0 ; i < arrOfObjects.length ; i = i + 1) {
+  for (var i = 0 ; i < arrOfObjects.length ; i = i + 1) {
     var singleObject = arrOfObjects [i]
     var objectMatchesAllCriteria = true
 
@@ -28,7 +28,7 @@ return filteredListOfObjects
   //output: arrayOfObjects (filtered sert)
 }
 
-}
+
 
 
 

@@ -25,9 +25,9 @@ var showStats = function(aNumber, anArrayOfNumbers){
     setSize: anArrayOfNumbers.length,
   }
   for(var i = 0; i < anArrayOfNumbers.length; i++){
-    console.log(aNumber)
-    console.log(anArrayOfNumbers)
-    console.log(returnObject)
+    // console.log(aNumber)
+    // console.log(anArrayOfNumbers)
+    // console.log(returnObject)
     if(anArrayOfNumbers[i] === aNumber){
       returnObject.count_inputEqualTo = returnObject.count_inputEqualTo + 1;
     }

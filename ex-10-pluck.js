@@ -6,7 +6,9 @@
 // e.g:
 // pluck(stooges, 'name') should yield the array, ['moe','larry','curly']
 
-
+// var pluck = function(listOfObjects, propertyValues){
+//
+// }
 
 
 

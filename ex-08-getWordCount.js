@@ -5,7 +5,7 @@
 
 // Note that your counts should NOT be case-sensitive.
 
-//DEMOED IN CLASS 
+//DEMOED IN CLASS
 //INPUT: Big Long Sentence string
 var getWordCount = function (sentenceStr){
     var wordCountObj = {}
